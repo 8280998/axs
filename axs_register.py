@@ -8,6 +8,11 @@ import imaplib
 import email
 from email.header import decode_header
 from datetime import datetime
+import sys
+import os
+
+sys.stdout = open(sys.stdout.fileno(), 'w', buffering=1)
+
 
 def get_verification_code(email_address, email_password, keyword="Axie Infinity", max_checks=5, timeout=300):
     try:
