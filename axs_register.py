@@ -110,10 +110,10 @@ async def register_user(page, email_address, email_password, user_index):
                 raise
             await asyncio.sleep(5)
 
-    # 设置转接邮箱域名，将@xxxxxx.com修改为你的转接域名。当前代码只支持gmail邮箱接收
+    # 设置转发邮箱域名，将example.com修改为你的转发域名。当前代码只支持gmail邮箱接收
     try:
         letters = ''.join(random.choices(string.ascii_lowercase, k=8))
-        email = f"{letters}@xxxxxx.com"
+        email = f"{letters}@example.com"
         await page.fill("input[placeholder='Enter your email']", email)
         print(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} 用户 {user_index}：生成并输入邮箱: {email}")
     except PlaywrightTimeoutError:
