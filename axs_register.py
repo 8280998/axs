@@ -255,7 +255,7 @@ async def main():
             finally:
                 await context.close()
 
-            await asyncio.sleep(random.randint(2, 15))
+            await asyncio.sleep(random.randint(15, 30))
 
         await browser.close()
 
