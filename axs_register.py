@@ -98,8 +98,9 @@ async def register_user(page, email_address, email_password, user_index):
     start_time = time.time()
     max_retries = 3
     for attempt in range(max_retries):
+        # 设置你的大号邀请连接,ref=xxxxxx修改为你的邀请码
         try:
-            await page.goto("https://axieinfinity.com/pre-register/?ref=n4tolg5u", wait_until="networkidle", timeout=60000)
+            await page.goto("https://axieinfinity.com/pre-register/?ref=xxxxxx", wait_until="networkidle", timeout=60000)
             print(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} 用户 {user_index}：访问注册页面")
             await page.wait_for_load_state("networkidle")
             await page.wait_for_timeout(5000) 
