@@ -239,8 +239,8 @@ async def main():
             print(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} 读取 test.txt 失败: {e}")
             return
 
-        # 自定义注册数量，默认1000个。可在此处自定义注册数量
-        TOTAL_USERS = 1000
+        # 自定义注册数量，默认100个。短时间内过多请求会出现429状态码，具体时间数据没测试出来
+        TOTAL_USERS = 100
         users = users * (TOTAL_USERS // len(users)) + users[:TOTAL_USERS % len(users)]
 
         for i in range(TOTAL_USERS):
