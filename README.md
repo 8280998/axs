@@ -29,6 +29,7 @@ Axie Infinity：Atia's Legacy 预注册活动，邮箱自动注册脚本
 
         pip3 install requests imaplib2
    
+   
 5. 配置邮箱访问
    
 Gmail 应用专用密码：
@@ -36,6 +37,7 @@ Gmail 应用专用密码：
 访问 Google 账号设置。
 
 进入 安全性 > 应用密码，生成一个新的应用密码。
+
 
 6. 准备 test.txt 文件
    
