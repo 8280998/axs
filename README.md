@@ -69,6 +69,14 @@ test.txt 文件：在代码运行的目录下创建一个 test.txt 文件，内�
  
         python3 axs_register.py
 
+后台运行
+
+        nohup python3 axs_register.py > axs.log 2>&1 &
+
+查看运行日志
+
+        tail -f axs.log
+
 8.运行界面如下
 ![image](https://github.com/user-attachments/assets/887e42ba-ed01-44a3-9245-11ea288540c0)
 
