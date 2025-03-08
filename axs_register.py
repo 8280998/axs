@@ -220,7 +220,7 @@ async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
 
-        # 从 test.txt 读取邮箱和密码
+
         users = []
         try:
             with open("test.txt", "r") as f:
