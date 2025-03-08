@@ -86,6 +86,7 @@ test.txt 文件：在代码运行的目录下创建一个 test.txt 文件，内�
         tail -f axs.log
 
 8.运行界面如下
-![image](https://github.com/user-attachments/assets/887e42ba-ed01-44a3-9245-11ea288540c0)
+![image](https://github.com/user-attachments/assets/4e13fad8-d9da-459f-b8c1-e72dcf9efb30)
+
 
 
