@@ -1,9 +1,11 @@
 # axs自动注册邮箱
-——————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————
 
 Axie Infinity：Atia's Legacy 预注册活动，邮箱自动注册脚本
 
 准备一个域名，在forwardemail或其他类似网站登记这个域名转发功能，转发到你的GMAIL邮箱
+
+———————————————————————————————————————————————
 
 ## 运行环境
 
@@ -17,11 +19,11 @@ Axie Infinity：Atia's Legacy 预注册活动，邮箱自动注册脚本
 
 2. 安装 Playwright
 
-   pip3 install playwright
+    pip3 install playwright
 
-   playwright install
+    playwright install
 
-   playwright install-deps
+    playwright install-deps
 
 4. 安装其他 Python 依赖
 
@@ -39,7 +41,7 @@ Gmail 应用专用密码：
    
 test.txt 文件：在代码运行的目录下创建一个 test.txt 文件，内容格式为：
 
-邮箱名|专用密码 example@gmail.com|your_app_password
+邮箱名|专用密码
 
 8.修改配置
 
