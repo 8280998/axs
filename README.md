@@ -19,15 +19,15 @@ Axie Infinity：Atia's Legacy 预注册活动，邮箱自动注册脚本
 
 2. 安装 Playwright
 
-    pip3 install playwright
+        pip3 install playwright
 
-    playwright install
+        playwright install
 
-    playwright install-deps
+        playwright install-deps
 
 4. 安装其他 Python 依赖
 
-    pip3 install requests imaplib2
+        pip3 install requests imaplib2
    
 5. 配置邮箱访问
    
@@ -60,7 +60,7 @@ test.txt 文件：在代码运行的目录下创建一个 test.txt 文件，内�
 
 9. 运行代码
  
-    python3 axs_register.py
+        python3 axs_register.py
 
 10.运行界面如下
 ![image](https://github.com/user-attachments/assets/51e8df5f-83f6-47f0-a268-b7df5ef114d7)
